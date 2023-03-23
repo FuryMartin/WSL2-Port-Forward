@@ -1,6 +1,6 @@
 set WSL2_NAME=Debian
 
-set LISTEN_PORT=24
+set LISTEN_PORT=22
 
 wsl -d %WSL2_NAME% -u root -e /etc/init.d/ssh start
 
